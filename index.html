@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="index.js" defer></script>
+</head>
+<body>
+    <nav>
+    <h1>Welcome to Rock Paper Scissors game!</h1>
+    </nav>
+    <main>
+        <div class="rock">
+            <img src="images/icon-rock.svg" alt="rock">
+            <input type="radio" name="rps" value="rock">
+        </div>
+        <div class="paper">
+            <img src="images/icon-paper.svg" alt="paper">
+            <input type="radio" name="rps" value="paper">
+        </div>
+        <div class="scissors">
+            <img src="images/icon-scissors.svg" alt="scissors">
+            <input type="radio" name="rps" value="scissors">
+        </div>
+    </main>
+    <div class="submit-btn">
+        <button name="submit" value="Submit">Submit</button>
+    </div>
+    <div class="pc-choice">
+        <p>PC's choice was - </p>
+    </div>
+
+    <div class="counter">
+        <div class="user-points">
+            <p>User</p>
+            <p class="user-counter">0</p>
+        </div>
+        <p>Points</p>
+        <div class="pc-points">
+            <p>Computer</p>
+            <p class="pc-counter">0</p>
+        </div>
+    </div>
+</body>
+</html>
